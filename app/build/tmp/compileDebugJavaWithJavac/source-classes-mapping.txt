@@ -1,0 +1,2 @@
+com/fakhrul/catatanpenjualan/BuildConfig.java
+ com.fakhrul.catatanpenjualan.BuildConfig

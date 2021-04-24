@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.rdev.catatanpenjualan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:8:5-39:19
+14        android:allowBackup="false"
+14-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:9:9-36
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\3f0e982339ff24e9e5cec28c56d30078\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:15:9-44
+24        <activity
+24-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:17:9-24:20
+25            android:name="com.fakhrul.catatanpenjualan.activity._main.Splasschreen"
+25-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:18:13-84
+26            android:theme="@style/Theme.AppCompat.NoActionBar" >
+26-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:19:13-63
+27            <intent-filter>
+27-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:20:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:21:17-69
+28-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:22:17-77
+30-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.fakhrul.catatanpenjualan.activity.report.ReportActivity" />
+33-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:25:9-105
+33-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:25:19-93
+34        <activity android:name="com.fakhrul.catatanpenjualan.activity.penjualan.PenjualanBarang" />
+34-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:26:9-100
+34-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:26:19-97
+35        <activity android:name="com.fakhrul.catatanpenjualan.activity.data_barang.DataBarangActivity" />
+35-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:27:9-105
+35-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:27:19-102
+36        <activity android:name="com.fakhrul.catatanpenjualan.activity.register.RegisterActivity" />
+36-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:28:9-100
+36-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:28:19-97
+37        <activity android:name="com.fakhrul.catatanpenjualan.activity.data_barang._add.AddBarangActivity" />
+37-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:29:9-109
+37-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:29:19-106
+38        <activity android:name="com.fakhrul.catatanpenjualan.activity.login.LoginActivity" >
+38-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:30:9-37:20
+38-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:30:19-91
+39            <intent-filter>
+39-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:31:13-36:29
+40                <action android:name="android.intent.action.VIEW" />
+40-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:32:17-69
+40-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:32:25-66
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:21:17-69
+41-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:21:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:22:17-77
+43-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:22:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.fakhrul.catatanpenjualan.activity._main.MainActivity" />
+46-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:38:9-93
+46-->D:\Catatan Penjualan\CatatanPenjualan\app\src\main\AndroidManifest.xml:38:19-90
+47
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+50            android:authorities="id.rdev.catatanpenjualan.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+53    </application>
+54
+55</manifest>
